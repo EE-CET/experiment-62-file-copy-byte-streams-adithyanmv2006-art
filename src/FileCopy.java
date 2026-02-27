@@ -35,7 +35,7 @@ public class FileCopy {
             // Hint: use (char) to cast the integer byte to a character before printing
             int byteData;
             while ((byteData= fis.read()) != -1) {
-                System.out.println((char)byteData);
+                System.out.print((char)byteData);
             }
         } catch (IOException e) {
             System.out.println("Error reading destination file: " + e.getMessage());
